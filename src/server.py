@@ -123,8 +123,8 @@ def index():
 
         elif (txt == '-h') or (txt == '--h') or (txt == 'help') or (txt == '/help'):
             tel_send_message(chat_id, 'Use /get_config to see learning config file')
-            tel_send_message(chat_id, 'Use /start_learning to start learning procces')
-            tel_send_message(chat_id, 'Use /stop_learning to stop learning procces')
+            tel_send_message(chat_id, 'Use /start_learning to start learning process')
+            tel_send_message(chat_id, 'Use /stop_learning to stop learning process')
             tel_send_message(chat_id, 'Use /show_stat to see last recordes learning stats')
             tel_send_message(chat_id, 'Use /show_graph to get link on tensorboard data')
 
