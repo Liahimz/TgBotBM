@@ -10,3 +10,8 @@
 Поскольку обучение проводится на машине находящейся в локальной сети нашего работадателя, мы не можем предоставить к ней прямой доступ, однако мы провели аналогичные эксперименты на двух разных компьютерах, находящихся в отличных локальных сетях. Также мы не можем предоставить доступ к модели, в силу конфиденциальности.
 
 Результаты работы представлены в приложенных скриншотах.
+
+![alt text](https://github.com/Liahimz/TgBotStat/blob/main/pic/1.png?raw=true)
+![alt text](https://github.com/Liahimz/TgBotStat/blob/main/pic/2.png?raw=true)
+![alt text](https://github.com/Liahimz/TgBotStat/blob/main/pic/3.png?raw=true)
+![alt text](https://github.com/Liahimz/TgBotStat/blob/main/pic/4.png?raw=true)
