@@ -4,11 +4,11 @@ import webbrowser
 import re
 import time
 
-TOKEN = '5781531761:AAF8FNJqhoFijcX-D1-ew5zy6Zr2tc9i7nA'
+TOKEN = ''  # Private telegram token
 
 REGISTER_BOT = f"https://api.telegram.org/bot{TOKEN}/setWebhook?url="
 
-PROJECT_PATH = '/home/michael/Desktop/BM_Network/'
+PROJECT_PATH = '' # NDA access
 
 os.system("ngrok start --all > /dev/null &")
 
