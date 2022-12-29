@@ -122,11 +122,11 @@ def index():
             tel_send_message(chat_id, 'Your wrote invalid command')
 
         elif (txt == '-h') or (txt == '--h') or (txt == 'help') or (txt == '/help'):
-            tel_send_message(chat_id, 'Use /get_config to see learning config file')
-            tel_send_message(chat_id, 'Use /start_learning to start learning process')
-            tel_send_message(chat_id, 'Use /stop_learning to stop learning process')
-            tel_send_message(chat_id, 'Use /show_stat to see last recordes learning stats')
-            tel_send_message(chat_id, 'Use /show_graph to get link on tensorboard data')
+            tel_send_message(chat_id, 'Use /get_config to see learning config file\nUse /start_learning to start learning process\nUse /stop_learning to stop learning process\nUse /show_stat to see last recordes learning stats\nUse /show_graph to get link on tensorboard data\n')
+            # tel_send_message(chat_id, 'Use /start_learning to start learning process')
+            # tel_send_message(chat_id, 'Use /stop_learning to stop learning process')
+            # tel_send_message(chat_id, 'Use /show_stat to see last recordes learning stats')
+            # tel_send_message(chat_id, 'Use /show_graph to get link on tensorboard data')
 
         else:
             tel_send_message(chat_id, 'Use -h or /help to get bot information message')
