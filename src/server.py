@@ -80,6 +80,9 @@ def index():
             tmux('new-session -d -s bm_learn')
             tmux_shell('cd %s' % PROJECT_PATH)
             tmux_shell('/bin/python3 %ssrc/train.py' % PROJECT_PATH)
+        
+        elif txt == '/stop_learning':
+            tmux('kill-server')
 
         elif txt == '/show_stat':
             f = open(PROJECT_PATH + "tmp.txt", "r")
@@ -121,6 +124,7 @@ def index():
         elif (txt == '-h') or (txt == '--h') or (txt == 'help') or (txt == '/help'):
             tel_send_message(chat_id, 'Use /get_config to see learning config file')
             tel_send_message(chat_id, 'Use /start_learning to start learning procces')
+            tel_send_message(chat_id, 'Use /stop_learning to stop learning procces')
             tel_send_message(chat_id, 'Use /show_stat to see last recordes learning stats')
             tel_send_message(chat_id, 'Use /show_graph to get link on tensorboard data')
 
@@ -141,5 +145,3 @@ if __name__ == '__main__':
     PROJECT_PATH = args.path
     print(GRAPH_PAGE)
     app.run(debug=True)
-
-
