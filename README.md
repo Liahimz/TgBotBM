@@ -1,2 +1,2 @@
 # TgBotBM
-Telegram bot for starting BM networks
+Telegram bot for starting and analyzing BM networks
